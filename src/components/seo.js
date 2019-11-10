@@ -68,7 +68,13 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        type="text/css"
+        href="https://fonts.googleapis.com/css?family=Teko&display=swap"
+        rel="stylesheet"
+      ></link>
+    </Helmet>
   )
 }
 
