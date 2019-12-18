@@ -6,51 +6,43 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       marginBottom: `1.45rem`,
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      fontSize: 15,
+      fontWeight: "bold",
     }}
   >
-    <div
-      style={{
-        margin: "0 auto",
-        maxWidth: 960,
-        padding: "1.45rem 1.0875rem",
-        display: "flex",
-        justifyContent: "space-around",
-        alignItems: "center",
-        fontSize: 15,
-        fontWeight: "bold",
-      }}
-    >
-      <h1 style={{ margin: 0 }} className="name">
-        <Link
-          to="/"
-          style={{
-            fontFamily: "Teko",
-            textDecoration: `none`,
-            color: "black",
-          }}
-        >
-          paul rosset
-        </Link>
-      </h1>
-      <div style={{ fontSize: 17 }}>
-        <ul
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-          }}
-        >
-          <li>
-            <Link to="" className="headerLink">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="" className="headerLink">
-              Writing
-            </Link>
-          </li>
-        </ul>
-      </div>
+    <h1 style={{ margin: 0 }} className="name">
+      <Link
+        to="/"
+        style={{
+          fontFamily: "Teko",
+          textDecoration: `none`,
+          color: "black",
+        }}
+      >
+        paul rosset
+      </Link>
+    </h1>
+    <div style={{ fontSize: 17 }}>
+      <ul
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+        }}
+      >
+        <li>
+          <Link to="/" className="headerLink">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="/writing" className="headerLink">
+            Writing
+          </Link>
+        </li>
+      </ul>
     </div>
   </header>
 )

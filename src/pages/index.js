@@ -1,17 +1,40 @@
 import React from "react"
-import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "paul.png" }) {
+      id
+      childImageSharp {
+        fluid {
+          src
+        }
+      }
+    }
+  }
+`
+
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div>
+      <img
+        src={data.file.childImageSharp.fluid.src}
+        alt="paulrosset"
+        style={{ width: "5.5rem", height: "5.5rem", borderRadius: "50%" }}
+      />
+      <h1 style={{ fontSize: 25 }}>Hello! I'm Paul!</h1>
+      <p>Welcome to my world.</p>
+      <p>I'm currently a software developer at Canal+, a media company.</p>
+      <p>
+        I also come from a French school named Epitech and I have studied at
+        Kent University in Canterbury (close to London) during a year.
+      </p>{" "}
+      <p>Thank's for coming!</p>
+    </div>
   </Layout>
 )
 

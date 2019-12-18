@@ -1,27 +1,10 @@
 * {
-  font-family: "San Francisco";
+  font-family: "Lato";
+  color: "#333535";
 }
 
 .name {
   font-family: "Teko", sans-serif;
-}
-
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 600;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
-}
-
-@font-face {
-  font-family: "Teko";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Teko Regular"), local("Teko-Regular"),
-    url(https://fonts.gstatic.com/s/teko/v9/LYjNdG7kmE0gfaJ9pQlCpVoXVQ.woff2)
-      format("woff2");
-  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
-    U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
 }
 
 li {
@@ -32,4 +15,10 @@ li {
 .headerLink {
   text-decoration: none;
   color: black;
+}
+
+.mdImg {
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
 }
