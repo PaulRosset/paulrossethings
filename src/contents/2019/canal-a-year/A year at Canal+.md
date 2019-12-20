@@ -20,7 +20,7 @@ From the beginning of its activities, the technological innovation, the excpetio
 The sport lovers, especially the football fans, have discovered a new way of filming at the time, they were putting the viewer like he was never before.  
 Canal+ possess in his DNA the creation and innovation.
 
-Canal+ soon became iconic of the french audiovision, with over 13 millions subscriber in France. 
+Canal+ soon became iconic of the french audiovision, with over 13 millions subscriber in France.
 
 However, they just have been catch up by netflix in France in term of number of subscribers.
 
@@ -93,17 +93,18 @@ On the other hand, sometimes, its unfair, not technically speaking the right in 
 
 I see this as a football competition, you are supposed to be less competitive team on the paper but on the field anything could happen, in most case the biggest team win but sometimes with obstinacy, humility and work, you get some rewards and this is that continue to keep waking me up every morning.
 
-
 Also because, for what I think I prefer to work for something that is not the best but try to be the best, instead of directly going for something that is at the top. It's like the game is already finish.
-<div>
+
+<div style="text-align:center;">
     <img class="mdImg" src="./netflix.png" alt="netflix">
-    <video src="./disney-plus.mp4" alt="disneyplus" autoplay controls></video>
+    <video src="https://cdn-b-east.streamable.com/video/mp4/parlf.mp4?token=gQdo66hBB0sZIbLyrZr0DQ&expires=1576855440" alt="disneyplus" autoplay controls style="max-height: 250px;"></video>
 </div>
 
 ## Web Player Team
 
 <div>
-    <img class="mdImg" src="./logoOnePlayer.png" alt="one-player">
+    <img class="mdImg" src="./logoOnePlayer.png" alt="one-player" width="200" height="150">
+    <br/><br/>
     <img class="mdImg" src="./rx.png" alt="rx-player"> 
 </div>
 
