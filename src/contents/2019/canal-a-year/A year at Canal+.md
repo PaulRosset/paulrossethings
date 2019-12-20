@@ -97,8 +97,12 @@ Also because, for what I think I prefer to work for something that is not the be
 
 <div style="text-align:center;">
     <img class="mdImg" src="./netflix.png" alt="netflix">
-    <video src="https://cdn-b-east.streamable.com/video/mp4/parlf.mp4?token=gQdo66hBB0sZIbLyrZr0DQ&expires=1576855440" alt="disneyplus" autoplay 
-    style="max-height: 250px;"></video>
+    <video 
+        src="https://cdn-b-east.streamable.com/video/mp4/parlf.mp4?token=gQdo66hBB0sZIbLyrZr0DQ&expires=1576855440"
+        alt="disneyplus"
+        controls
+        style="max-height: 250px;">
+    </video>
 </div>
 
 ## Web Player Team
