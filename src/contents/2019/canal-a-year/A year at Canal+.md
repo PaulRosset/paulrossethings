@@ -98,10 +98,11 @@ Also because, for what I think I prefer to work for something that is not the be
 <div style="text-align:center;">
     <img class="mdImg" src="./netflix.png" alt="netflix">
     <video 
-        src="https://cdn-b-east.streamable.com/video/mp4/parlf.mp4?token=gQdo66hBB0sZIbLyrZr0DQ&expires=1576855440"
+        src="https://me-blog.s3-eu-west-1.amazonaws.com/disney-plus.mp4"
         alt="disneyplus"
         controls
-        style="max-height: 250px;">
+        style="width: 100%; margin: 15px 0;"
+    >
     </video>
 </div>
 

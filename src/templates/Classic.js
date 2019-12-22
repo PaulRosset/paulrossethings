@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 
 export default function TemplateBlogPost({ data }) {
-  console.warn(data)
   const { markdownRemark } = data
   return (
     <>

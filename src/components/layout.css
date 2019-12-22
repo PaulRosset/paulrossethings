@@ -3,6 +3,19 @@
   color: "#333535";
 }
 
+body {
+  transition: background 500ms ease-in-out, color 200ms ease;
+}
+
+header {
+  margin-bottom: 1.45rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15;
+  font-weight: bold;
+}
+
 .name {
   font-family: "Teko", sans-serif;
 }
@@ -14,11 +27,43 @@ li {
 
 .headerLink {
   text-decoration: none;
-  color: black;
 }
 
 .mdImg {
   height: 100%;
   width: 100%;
   margin-top: 5px;
+}
+
+.dark {
+  color: #ffffff;
+  background-color: #282c35;
+}
+
+.light {
+  color: #333535;
+  background-color: #ffffff;
+}
+
+.dark a {
+  color: #ffffff;
+}
+
+.light a {
+  color: #333535;
+}
+
+.switchDarkMode {
+  border: none;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.dark .switchDarkMode {
+  background: url("../components/assets/sunny-day.svg") no-repeat;
+}
+
+.light .switchDarkMode {
+  background: url("../components/assets/night.svg") no-repeat;
 }

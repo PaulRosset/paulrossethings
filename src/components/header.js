@@ -1,58 +1,62 @@
+import React, { useContext } from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
 
-const Header = () => (
-  <header
-    style={{
-      marginBottom: `1.45rem`,
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      fontSize: 15,
-      fontWeight: "bold",
-    }}
-  >
-    <h1 style={{ margin: 0 }} className="name">
-      <Link
-        to="/"
-        style={{
-          fontFamily: "Teko",
-          textDecoration: `none`,
-          color: "black",
-        }}
-      >
-        paul rosset
-      </Link>
-    </h1>
-    <div style={{ fontSize: 17 }}>
-      <ul
-        style={{
-          display: "flex",
-          justifyContent: "space-around",
-        }}
-      >
-        <li>
-          <Link to="/" className="headerLink">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="/writing" className="headerLink">
-            Writing
-          </Link>
-        </li>
-      </ul>
-    </div>
-  </header>
-)
+import { ThemeContext } from "./layout"
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+const Header = ({ onToggleTheme }) => {
+  const themeColor = useContext(ThemeContext)
+  return (
+    <header>
+      <h1 style={{ margin: 0 }} className="name">
+        <Link
+          to="/"
+          style={{
+            fontFamily: "Teko",
+            textDecoration: `none`,
+            color: themeColor.foreground,
+          }}
+        >
+          paul rosset
+        </Link>
+      </h1>
+      <div style={{ fontSize: 17 }}>
+        <ul
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            alignItems: "center",
+          }}
+        >
+          <li>
+            <Link
+              to="/"
+              className="headerLink"
+              style={{ color: themeColor.foreground }}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/writing"
+              className="headerLink"
+              style={{ color: themeColor.foreground }}
+            >
+              Writing
+            </Link>
+          </li>
+          <li>
+            <button onClick={onToggleTheme} className="switchDarkMode"></button>
+          </li>
+        </ul>
+      </div>
+    </header>
+  )
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
+Header.propTypes = {
+  onToggleTheme: PropTypes.func,
 }
 
 export default Header
