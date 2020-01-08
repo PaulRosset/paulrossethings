@@ -15,12 +15,12 @@ CANAL+ is a french private television payable channel, focused on the cinema and
 
 It has been created in 1984, it's quite a long story now, but it also show that they successfully self reinvented and questioned what they were doing, to be able to adapt them self to the market that is continually changing.
 
-From the beginning of its activities, the technological innovation, the excpetional freedom of expression for the era has contributed to consider Canal+ as a major actor of the television.
+From the beginning of its activities, the technological innovation, the exceptional freedom of expression for the era has contributed to consider Canal+ as a major actor of the television.
 
 The sport lovers, especially the football fans, have discovered a new way of filming at the time, they were putting the viewer like he was never before.  
 Canal+ possess in his DNA the creation and innovation.
 
-Canal+ soon became iconic of the french audiovision, with over 13 millions subscriber in France.
+Canal+ soon became iconic of the french audiovision, with over 5 millions subscriber in France, more than 3 millions that are subscriber through ISP and more than 20 millions subscriber at the international.
 
 However, they just have been catch up by netflix in France in term of number of subscribers.
 
@@ -67,6 +67,9 @@ Up to you to configure how you want to watch your content, it gives you the poss
 
 However, these features added complexity for the user, he is no more passive as I said earlier, but now active, it also added complexity on how we design our code base, because we have to deal with more data that could break and so be resilient with it.
 
+Canal+ is smoothly creating an ecosystem around tech, by hosting meetup such as [Paris video tech](https://www.meetup.com/Paris-Video-Tech) or create his own meetup for Canal+ employee called **Canal tech** meetup.  
+They also help people to talk in public. It helps to get yourself improved to be able to speak in conference such as the [Devoxx](https://www.youtube.com/watch?v=Md3ktrlQ_H0) or even for the [Google I/O](https://youtu.be/Vo-UQDVykIs?t=1537).
+
 <img class="mdImg" src="./expert-mode.png" alt="expermode">
 
 ## A streaming universe
@@ -76,7 +79,7 @@ These competitors are not small but huge! It's **Netflix**, **Amazon**, **Apple*
 
 Because, Canal+ is now turned on the streaming service as Netflix does, but we have more things to deal with. We are covering Live event (Sport, Ceremony...), but also VOD content (Films, Tv show, Series...).
 
-Canal+ is also a content creator, every year around 4 to 5 tv series are created and distributed on the streaming platform (**myCanal**).  
+Canal+ is also a content creator, every year around 4 to 5 tv series are created and distributed on the streaming platform (**myCANAL**).  
 We are also aggregator of content, this means that we are hosting other streaming platfrom services, for example in France, we have a platform owned by Orange called OCS that possess the right to broadcast HBO content in France, so we made a partnership with them to be able to broadcast their services on our platform.
 
 More recently, we also made a parternship with Netflix and Disney+.  
