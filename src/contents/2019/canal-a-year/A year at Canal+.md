@@ -1,8 +1,8 @@
 ---
 path: "/2019/a-year-at-canalplus"
 date: "2019-12-09"
-title: "A year at Canal+, from an internship to full time employee."
-spoiler: "A year at Canal+, from an internship to full time employee."
+title: "A year at Canal+, from an internship to a full-time employee."
+spoiler: "A year at Canal+, from an internship to a full-time employee."
 meta: "student, canalplus, media, company"
 year: "2019"
 ---
@@ -27,7 +27,7 @@ However, they just have been caught up by Netflix in France in terms of the numb
 ## Canal+'s life
 
 When I first applied for Canal+, I was simply a student that wanted to explore the professional world.
-I mean, I was delighted to come to a company like Canal+, but I was not expecting much from them. Still, as I said earlier, Canal+ has quite a long story now, I grew up with Canal+ at home, they were the pioneers of the entertainment and the best in France when it comes to creating something new and trendy. This way of thinking played a major in the idea of applying here, in addition to that, they were searching the new labors of the 21st century, **developers**!.
+I mean, I was delighted to come to a company like Canal+, but I was not expecting much from them. Still, as I said earlier, Canal+ has quite a long story now, I grew up with Canal+ at home, they were the pioneers of the entertainment and the best in France when it comes to creating something new and trendy. This way of thinking played a major in the idea of applying here, in addition to that, they were searching for the new labors of the 21st century, **developers**!.
 
 However, I wasn't sure about the company once inside. I thought that if Canal+ was not a match with me, I could search for another job in Paris.
 But I haven't thought much about it because I was going to work for a company that his main problem is to find the next entertainment for his customers.
@@ -48,7 +48,7 @@ You also have the opportunity to meet many media persons but also artists. It's 
 
 We also have some great bonuses for entertaining. We got tickets for the Football match, tickets for stand up show and some others with serious price advantages.
 
-## When tech meet media entertainment
+## When tech meets media entertainment
 
 The field is vibrant in terms of technological subjects.
 
@@ -122,7 +122,7 @@ Concerning the web player, the unity where I'm working on, it's a team of around
 
 We may think that eight peoples are a lot, but this project covers multiple complicated and specific topics.
 
-We are maintaining two individual projects with one with **73 000** line of codes and another one with **48 000** lines whose one relies on the other.
+We are maintaining two individual projects with one with **73 000** lines of codes and another one with **48 000** lines whose one relies on the other.
 
 The one with **48 000** lines, is called the [**rx-player**](https://github.com/canalplus/rx-player), it's basically the low level abstraction of the [**HTML5 media element**](https://developer.mozilla.org/fr/docs/Web/API/HTMLMediaElement).
 
@@ -130,7 +130,7 @@ It uses under the hood the **MediaSource API** that permits to append video segm
 
 It's a complex project that relies on multiple technologies as FFmpeg, DASH-MPEG, Smooth, DRM, Adaptive bitrate streaming, and many others. Its also open source, feel free to check it out [here](https://github.com/canalplus/rx-player).
 
-The second one is called the **One Player**. It's a private project, its basically the UI of the player that integrates the **rx-player** and gather all the canal's web services and where we made the interactions possible with the end-user.
+The second one is called **One Player**. It's a private project, its basically the UI of the player that integrates the **rx-player** and gather all the canal's web services and where we made the interactions possible with the end-user.
 
 For the last two years, both projects have grown in complexity because we are continually adding new features to create the next entertainment.
 
