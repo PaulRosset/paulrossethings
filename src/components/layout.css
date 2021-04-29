@@ -23,6 +23,12 @@ header {
 li {
   margin: 5px;
   list-style-type: none;
+  border-right: solid 2px black;
+  padding-right: 8px;
+}
+
+li:last-child {
+  border-right: none;
 }
 
 .headerLink {

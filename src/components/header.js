@@ -47,6 +47,17 @@ const Header = ({ onToggleTheme }) => {
             </Link>
           </li>
           <li>
+            <a
+              href="https://epikent.paulrossethings.com/"
+              className="headerLink"
+              style={{ color: themeColor.foreground }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kent Blog (French)
+            </a>
+          </li>
+          <li>
             <button onClick={onToggleTheme} className="switchDarkMode"></button>
           </li>
         </ul>
