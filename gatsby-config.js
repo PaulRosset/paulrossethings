@@ -21,18 +21,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Teko`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Lato`,
-            variants: [`400`, `700`],
-          },
-        ],
+        fonts: [`Teko`, `Lato`],
       },
     },
     {
